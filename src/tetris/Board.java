@@ -13,6 +13,7 @@ import javax.swing.Timer;
 
 import tetris.Shape.Tetrominoes;
 
+@SuppressWarnings("serial")
 public class Board extends JPanel implements ActionListener {
 	 final int BoardWidth = 10;
 	 final int BoardHeight = 22;
